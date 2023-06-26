@@ -3,7 +3,6 @@
 import { HiX } from "react-icons/hi";
 import Links from "./components/Links";
 
-import SidebarCard from "components/sidebar/componentsrtl/SidebarCard";
 import routes from "routes.js";
 
 const Sidebar = ({ open, onClose }) => {
@@ -14,7 +13,7 @@ const Sidebar = ({ open, onClose }) => {
       }`}
     >
       <span
-        className="absolute top-4 block cursor-pointer end-4 xl:hidden"
+        className="absolute block cursor-pointer top-4 end-4 xl:hidden"
         onClick={onClose}
       >
         <HiX />
@@ -28,14 +27,10 @@ const Sidebar = ({ open, onClose }) => {
       <div class="mt-[58px] mb-7 h-px bg-gray-300 dark:bg-white/30" />
       {/* Nav item */}
 
-      <ul className="mb-auto pt-1">
+      <ul className="pt-1 mb-auto">
         <Links routes={routes} />
       </ul>
 
-      {/* Free Horizon Card */}
-      <div className="flex justify-center">
-        <SidebarCard />
-      </div>
 
       {/* Nav item end */}
     </div>
