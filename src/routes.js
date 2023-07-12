@@ -27,13 +27,13 @@ const routes = [
     icon: <MdHome className="w-6 h-6" />,
     component: <MainDashboard />,
   },
-  // {
-  //   name: "Data Tables",
-  //   layout: "/admin",
-  //   icon: <MdBarChart className="w-6 h-6" />,
-  //   path: "data-tables",
-  //   component: <DataTables />,
-  // },
+  {
+    name: "Extend Plan",
+    layout: "/admin",
+    icon: <MdBarChart className="w-6 h-6" />,
+    path: "data-tables",
+    component: <DataTables />,
+  },
   {
     name: "Profile",
     layout: "/admin",

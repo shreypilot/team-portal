@@ -7,18 +7,18 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(
-
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-
-);
-
 // root.render(
-//   <GoogleOAuthProvider clientId="386932037035-k8v833noqjk7m4***********.apps.googleusercontent.com">
+
 //     <BrowserRouter>
 //       <App />
 //     </BrowserRouter>
-//   </GoogleOAuthProvider>
+
 // );
+
+root.render(
+  <GoogleOAuthProvider clientId="123725713610-saf0n8o3oa4nmejsppul6fktr9ohr2vo.apps.googleusercontent.com">
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </GoogleOAuthProvider>
+);

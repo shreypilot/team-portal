@@ -103,10 +103,10 @@ const Navbar = (props) => {
                 </div>
                 <div className="flex flex-col justify-center w-full h-full px-1 ml-2 text-sm rounded-lg">
                   <p className="mb-1 text-base font-bold text-left text-gray-900 dark:text-white">
-                    New Update: Horizon UI Dashboard PRO
+                   Unavialble
                   </p>
                   <p className="text-xs text-left text-gray-900 font-base dark:text-white">
-                    A new update for your downloaded item is available!
+                    Stuck in a meeting
                   </p>
                 </div>
               </button>

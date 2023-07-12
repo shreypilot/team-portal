@@ -58,7 +58,7 @@ export default function RTL(props) {
 
   document.documentElement.dir = "rtl";
   return (
-    <div className="flex h-full w-full">
+    <div className="flex w-full h-full">
       <Sidebar open={open} onClose={() => setOpen(false)} />
       {/* Navbar & Main Content */}
       <div className="h-full w-full bg-lightPrimary dark:!bg-navy-900">
@@ -81,7 +81,7 @@ export default function RTL(props) {
 
                 <Route
                   path="/"
-                  element={<Navigate to="/admin/default" replace />}
+                  element={<Navigate to="/auth/sign-in" replace />}
                 />
               </Routes>
             </div>
